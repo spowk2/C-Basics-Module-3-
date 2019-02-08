@@ -27,28 +27,29 @@ namespace CsharpBasics
             {
                 Console.WriteLine("The samples are equal.");
             }
-            else
-            {
-                Console.WriteLine("The samples are not equal.");
-            }
+            
+                else
+                {
+                    Console.WriteLine("The samples are not equal.");
+                }
 
             if (heartRate >= 40 && heartRate <= 80)
             {
                 Console.WriteLine("Heart rate is normal.");
             }
-            else
-            {
-                Console.WriteLine("Heart rate is not normal.");
-            }
+                else
+                {
+                    Console.WriteLine("Heart rate is not normal.");
+                }
 
             if (deposits > 100000000)
             {
                 Console.WriteLine("You are exceedingly wealthy.");
             }
-            else
-            {
-                Console.WriteLine("Sorry you are so poor.");
-            }
+                else
+                {
+                    Console.WriteLine("Sorry you are so poor.");
+                }
 
             float force = mass * acceleration;
             Console.WriteLine("force = " + force);
@@ -61,10 +62,10 @@ namespace CsharpBasics
                 {
                     Console.WriteLine("I am really sorry! I will get the manager.");
                 }
-                else
-                {
-                    Console.WriteLine("Here is coupon for 10% off.");
-                }
+                    else
+                    {
+                        Console.WriteLine("Here is coupon for 10% off.");
+                    }
             }
 
             switch (choice)
